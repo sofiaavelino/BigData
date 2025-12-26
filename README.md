@@ -47,16 +47,19 @@ You can extend this analysis with other models or feature sets.
    ```bash
    git clone https://github.com/sofiaavelino/BigData.git
    cd BigData
+   ```
 
 2. Create a Python environment
    ```bash
    python -m venv venv
    source venv/bin/activate  # macOS/Linux
    venv\Scripts\activate     # Windows
+   ```
 
 3. Install packages
    ```bash
    pip install -r requirements.txt
+   ```
 
 4. Open the notebook
   ```bash
@@ -65,6 +68,7 @@ You can extend this analysis with other models or feature sets.
 
 ### 📌 Option B — Google Colab
 You can open the notebook with Colab (ideal if you don’t want to install locally):
+
 👉 https://colab.research.google.com/github/sofiaavelino/BigData/blob/main/Project2_BDCC_GroupP.ipynb
 
 ### 📈 Key Results

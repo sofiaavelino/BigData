@@ -23,8 +23,6 @@ Accurately predicting LOS can inform bed management, staffing, and discharge pla
 
 This project uses the **MIMIC-III clinical database**, which contains de-identified health data associated with ~40,000 ICU patients, including demographics, vitals, lab results, and more.
 
-> **Note:** Due to privacy restrictions, MIMIC-III requires credentialed access from PhysioNet — describe how others can obtain the credentials and download the data.
-
 ---
 
 ## 📌 Project Overview

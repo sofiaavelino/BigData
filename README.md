@@ -71,7 +71,32 @@ You can open the notebook with Colab (ideal if you don’t want to install local
 
 👉 https://colab.research.google.com/github/sofiaavelino/BigData/blob/main/Project2_BDCC_GroupP.ipynb
 
-### 📈 Key Results
+## 📈 Key Results
+
+- **Best performing model:**  
+  Across all four illness groups, **XGBoost consistently outperformed other models** in terms of predictive accuracy for hospital length of stay (LOS).
+
+- **Prediction accuracy:**  
+  The models achieved a **mean absolute error (MAE) of approximately 2 days**. While not ideal, this performance is considered reasonable given:
+  - the complexity of LOS prediction,
+  - the limited size of the dataset,
+  - and the high variability inherent in clinical data.
+
+- **Computational performance:**  
+  - **Sequential implementations** were faster than parallel approaches in both training and prediction time.
+  - This is attributed to the dataset size being insufficient for parallelization benefits to outweigh overhead costs.
+  - When comparing **Dask and PySpark**, execution time depended mainly on the chosen model rather than the framework itself, making it difficult to conclusively favor one over the other.
+
+- **Practical relevance:**  
+  - The predictions are **more informative for longer hospital stays** and more severe cases.
+  - For short-term admissions, the added value of the predictions is limited.
+
+- **Methodological insight:**  
+  The results highlight the importance of **model selection and computational efficiency** in healthcare analytics, where timely and reasonably accurate predictions can support resource allocation and care planning.
+
+- **Future directions:**  
+  A promising extension would be **item-level temporal modeling**, where individual medical variables are modeled over time. While potentially more accurate and interpretable, this approach was deemed too complex and time-consuming for the scope of this project.
+
 
 
 

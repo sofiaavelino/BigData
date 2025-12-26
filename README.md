@@ -71,6 +71,8 @@ You can open the notebook with Colab (ideal if you don’t want to install local
 
 👉 https://colab.research.google.com/github/sofiaavelino/BigData/blob/main/Project2_BDCC_GroupP.ipynb
 
+---
+
 ## 📈 Key Results
 
 - **Best performing model:**  
